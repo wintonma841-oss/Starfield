@@ -1,3 +1,5 @@
+Star [] Paxson = new Star[1000];
+Unfairness [] Cormac = new Unfairness[10];
 //your code here
 void setup()
 {
@@ -61,7 +63,7 @@ class Unfairness extends Star { //inherits from Particle
     myX=400;
     myY=400;
     myAngle=Math.random()*2*PI;
-    mySpeed=5;
+    mySpeed=(Math.random()*5-2);
     myRed=(int)255;
     myGreen=0;
     myBlue=0;
